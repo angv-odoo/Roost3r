@@ -1,7 +1,7 @@
 /*! * Layana HTML 1.0.0 by WowThemes.net * All rights reserved http://www.wowthemes.net */
 @font-face{
   font-family:'Nikosh';
-  src: url('eve.ttf'); /* here you go, IE */
+  src: url('../eve.ttf'); /* here you go, IE */
 }
 html,body {
 	width:100%;
@@ -486,7 +486,7 @@ body {
 	padding-right:0;
 }
 .equal-heights .box {
-	padding:60px;
+	padding:70px;
 }
 .w-middle {
 	transform-style:preserve-3d;
