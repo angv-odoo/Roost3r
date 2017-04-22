@@ -29,6 +29,19 @@ a {
 	-moz-transition:all .35s;
 	transition:all .35s;
 }
+
+a.rss-small,a.rss-big{
+ -webkit-box-shadow: 0px 6px 0px #C64802;
+    -moz-box-shadow: 0px 6px 0px #C64802;
+    box-shadow: 0px 6px 0px #C64802;
+}
+a.rss-small{background:#FF6501 url("images/rss.png") no-repeat center center;}
+a.rss-big{background:#FF6501;}
+a.rss-small:active, a.rss-big:active{ -webkit-box-shadow: 0px 2px 0px #C64802;
+    -moz-box-shadow: 0px 2px 0px #C64802;
+    box-shadow: 0px 2px 0px #C64802;
+}
+
 a:hover,a:focus {
 	color:#eb3812;
 }
