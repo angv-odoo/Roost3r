@@ -198,9 +198,9 @@
 	<div><span>Enter the amount of money</span>
 	<br><input type="text" name="what" id="me" >
 </div>
-			 <a href="business/pages/whatever.html"  class="btn btn-info"><span  class="glyphicon glyphicon-fire"></span><span id="wtf"></span>  </a>
+			 <a id="w" style="visibility: hidden;" href="business/pages/whatever.html"  class="btn btn-info"><span  class="glyphicon glyphicon-fire"></span><span id="wtf"></span>  </a>
 			 <br>
-			 <a href="business/pages/whatever.html"  class="btn btn-info"><span id="wtff"></span>  </a>
+			 <a id="g"  style="visibility: hidden; href="business/pages/whatever.html"  class="btn btn-info"><span id="wtff"></span>  </a>
 			 <br>
 		<script type="text/javascript">
 
@@ -215,6 +215,8 @@ if(a==NaN){
 a=1;
 }
 inputBox.onkeyup = function(){
+ document.getElementById("w").style.visibility="visible";
+  document.getElementById("g").style.visibility="visible";
 
 			var inputBox = document.getElementById('me');
 
@@ -408,13 +410,9 @@ document.getElementById('wtff').innerHTML ='pay: '+a+'€';
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="badges">
-<<<<<<< HEAD
-                        <a class="badge-link" href="http://sincerio.us/AliExpress.html"><img src="one.png" style="width:20%;" alt=""></a>
-                        <a class="badge-link"  href="http://sincerio.us/Ebay.html"><img src="two.png" style="width:30%;" alt=""></a>
-=======
+
                     <a class="badge-link" href="#"><img src="one.png" style="width:20%;" alt=""></a>
                     <a class="badge-link"  href="#"><img src="two.png" style="width:30%;" alt=""></a>
->>>>>>> 58e924078ad132d2b983777352e32dd18a30c888
                     </div>
                 </div>
             </div>
