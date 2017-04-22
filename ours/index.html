@@ -80,7 +80,7 @@
 				<h2 data-animation="animated bounceInDown">
 				why the fuck not? </h2>
 				<h1 data-animation="animated bounceInUp">
-				roost3r </h1>
+				</h1>
 				<a href="#" class="btn btn-ghost btn-lg" data-animation="animated fadeInLeft">Join us</a><a href="#" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Learn More</a>
 			</div>
 		</div>
@@ -99,13 +99,127 @@
 	</a>
 </div>
 <!-- /.carousel -->
+<section id="tline">
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading"><b>plans</b></h2>
+	</div>
+</div>
+</div>
+<br/>
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<ul class="tline-holder">
+			<!-- tline ITEM-->
+			<li class="tline-item-left wow fadeInLeft" >
+			<div class="tline-item-content" style="min-width: 570px;">
+				<div class="date-icon glyphicon glyphicon-fire">
+				</div>
+				<div class="tline-item-txt text-right" >
+					<h2>get more</h2>
+					<p >
+						 				get 1.5% more money from our payments than usual 
+ 
+					</p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<!-- tline-->
+			<li class="tline-item-right wow fadeInRight">
+			<div class="tline-item-content" style="min-width: 570px;">
+				<div class="date-icon glyphicon glyphicon-fire">
+				</div>
+				<div class="tline-item-txt text-left">
+				<h2>Heaven for business</h2>
+				<p>
+						 entertain your clients, and get the same amount of profit independently from the outcome
+					</p>
+
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<!-- tline-->
+			<li class="tline-item-left wow fadeInLeft">
+			<div class="tline-item-content" style="min-width: 570px;">
+				<div class="date-icon glyphicon glyphicon-fire">
+				</div>
+				<div class="tline-item-txt text-right" >
+<h2> Really, Really <b>Easy</b></h2>
+					<p>
+						  All you have to do:
+			  log in and put our snippet of code in your website
+
+
+					</p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<!-- tline-->
+			<li class="tline-item-right wow fadeInRight">
+			<div class="tline-item-content" style="min-width: 570px;">
+				<div class="date-icon glyphicon glyphicon-fire">
+				</div>
+				<div class="tline-item-txt text-left">
+					<h2><b> Promote</b> yourself</h2>
+					<p>
+						Advertise costumer success stories, promote your business and get more costumers
+					</p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<li class="tline-start">
+			<div class="tline-start-content">
+				<div class="tline-start-icon">
+				</div>
+
+							  						<h2>try it out</b>
+						</h2>
+	<div><span>Enter the amount of money</span>
+	<br><input type="text" name="what" id="me" >
+</div>
+			 <a href="business/pages/whatever.html"  class="btn btn-info"><span  class="glyphicon glyphicon-fire"></span><span id="wtf"></span>  </a>
+			 <br>
+			 <a href="business/pages/whatever.html"  class="btn btn-info"><span id="wtff"></span>  </a>
+			 <br>
+		<script type="text/javascript">
+
+
+		var a=0;
+		var inputBox = document.getElementById('me');
+		console.log(inputBox.value);
+
+var a = parseInt(inputBox.value);
+console.log(a);
+if(a==NaN){
+a=1;
+}
+inputBox.onkeyup = function(){
+
+			var inputBox = document.getElementById('me');
+
+	var a = parseInt(inputBox.value);
+document.getElementById('wtff').innerHTML ='pay: '+a+'€';
+    document.getElementById('wtf').innerHTML ='pay: '+a*0.5+'-'+Math.round(a*110 ) / 100+'€';
+}</script>
+				<a href="#" class="btn btn-primary bgn-xl wow zoomIn">JOIN US</a>
+			</div>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+</section>
+
+
 
 <!-- Section About
-================================================== -->
-
-<!-- Section after about
-================================================== -->
-<section class="no-padding">
+================================================== --
 <div class="equal-heights w-middle">
 <div class="col-md-4 bg-primary">
 	<div class="box">
@@ -137,26 +251,7 @@
 <div class="col-md-4 bg-gray">
 	<div class="box">
 		<h2>try it out</b></h2>
-	<div><span>Enter the amount of money</span><input type="text" name="what" id="me" ></div>
-			 <a href="business/pages/whatever.html"  class="btn btn-info"><span  class="glyphicon glyphicon-fire"></span><span id="wtf"></span>  </a>
-		<script type="text/javascript">
-		var a=0;
-		var inputBox = document.getElementById('me');
-		console.log(inputBox.value);
 
-var a = parseInt(inputBox.value);
-console.log(a);
-if(a==NaN){
-a=1;
-}
-inputBox.onkeyup = function(){
-			var inputBox = document.getElementById('me');
-
-	var a = parseInt(inputBox.value);
-
-    document.getElementById('wtf').innerHTML ='pay: '+a*0.5+' or '+Math.round(a*1.1 * 100) / 100+'€';
-}</script>
-	</div>
 </div>
 <div class="col-md-4 bg-darkgray">
 	<div class="box">
@@ -233,7 +328,7 @@ inputBox.onkeyup = function(){
 
 <!-- Section Fun Facts
 ================================================== -->
-<section id="funfacts" class="parallax parallax-image" style="background-image:url(rooster1.jpg); font-color:black;">
+<section id="funfacts" class="parallax parallax-image" style="background-image:url(rooster1.jpg); color:black;">
 <div class="wrapsection">
 <div class="container">
 	<div class="parallax-content">
@@ -244,7 +339,7 @@ inputBox.onkeyup = function(){
 						<i class="glyphicon glyphicon-fire"></i>
 					</div>
 					<h2 class="counter" data-from="0" data-to="50.65" data-speed="2500"></h2>
-					<h4 style="font-color:black;"><b>Billion for online gambling industry in 2017</b></h4>
+					<h4>Billion for online gambling industry in 2017</h4>
 				</div>
 			</div>
 			<div class="col-md-3">
@@ -253,7 +348,7 @@ inputBox.onkeyup = function(){
 						<i class="glyphicon glyphicon-fire"></i>
 					</div>
 					<h2 class="counter" data-from="0" data-to="15" data-speed="2500"></h2>
-					<h4><b> percent of Americans gamble at least once per week</b></h4>
+					<h4> percent of Americans gamble at least once per week</h4>
 				</div>
 			</div>
 			<div class="col-md-3">
@@ -262,7 +357,7 @@ inputBox.onkeyup = function(){
 						<i class="glyphicon glyphicon-fire"></i>
 					</div>
 					<h2 class="counter" data-from="0" data-to="750" data-speed="2500"></h2>
-					<h4><b>thousand in age 18-21 have gambling problems</b></h4>
+					<h4>thousand in age 18-21 have gambling problems</h4>
 				</div>
 			</div>
 			<div class="col-md-3">
@@ -288,100 +383,6 @@ inputBox.onkeyup = function(){
 ================================================== -->
 <!-- Section Timeline
 ================================================== -->
-<section id="tline">
-<div class="container">
-<div class="row">
-	<div class="col-lg-12 text-center">
-		<h2 class="section-heading"><b>plans</b></h2>
-	</div>
-</div>
-</div>
-<br/>
-<div class="container">
-<div class="row">
-	<div class="col-md-12">
-		<ul class="tline-holder">
-			<!-- tline ITEM-->
-			<li class="tline-item-left wow fadeInLeft">
-			<div class="tline-item-content">
-				<div class="date-icon glyphicon glyphicon-fire">
-				</div>
-				<div class="tline-item-txt text-right">
-					<div class="meta">
-						 January 2017
-					</div>
-					<h3>Love Fashion</h3>
-					<p>
-						 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-					</p>
-				</div>
-			</div>
-			</li>
-			<!-- /tline-->
-			<!-- tline-->
-			<li class="tline-item-right wow fadeInRight">
-			<div class="tline-item-content">
-				<div class="date-icon glyphicon glyphicon-fire">
-				</div>
-				<div class="tline-item-txt text-left">
-					<div class="meta">
-						 December 2016
-					</div>
-					<h3>Green is Health</h3>
-					<p>
-						 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-					</p>
-				</div>
-			</div>
-			</li>
-			<!-- /tline-->
-			<!-- tline-->
-			<li class="tline-item-left wow fadeInLeft">
-			<div class="tline-item-content">
-				<div class="date-icon glyphicon glyphicon-fire">
-				</div>
-				<div class="tline-item-txt text-right">
-					<div class="meta">
-						 November 2016
-					</div>
-					<h3>Why you love us</h3>
-					<p>
-						 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-					</p>
-				</div>
-			</div>
-			</li>
-			<!-- /tline-->
-			<!-- tline-->
-			<li class="tline-item-right wow fadeInRight">
-			<div class="tline-item-content">
-				<div class="date-icon glyphicon glyphicon-fire">
-				</div>
-				<div class="tline-item-txt text-left">
-					<div class="meta">
-						 September 2016
-					</div>
-					<h3>Save our Planet</h3>
-					<p>
-						 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-					</p>
-				</div>
-			</div>
-			</li>
-			<!-- /tline-->
-			<li class="tline-start">
-			<div class="tline-start-content">
-				<div class="tline-start-icon">
-				</div>
-				<a href="#" class="btn btn-primary bgn-xl wow zoomIn">JOIN US</a>
-			</div>
-			</li>
-		</ul>
-	</div>
-</div>
-</div>
-</section>
-
 
 
 <!-- jQuery -->
