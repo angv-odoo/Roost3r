@@ -724,16 +724,16 @@ body {
 	border-radius:50%;
 	margin-bottom:10px;
 	clear:both;
-	color:#fff;
+	color:#f00;
 	border:0;
 	background:rgba(0,0,0,0.2);
 }
 .funfacts .icon a {
-	color:#fff;
+	color:#000;
 }
 .funfacts .counter {
 	font-size:70px;
-	color:#fff;
+	color:#000;
 	font-weight:700;
 }
 .funfacts h4 {
@@ -742,7 +742,7 @@ body {
 	margin:22px 0 0;
 	position:relative;
 	letter-spacing:1px;
-	color: #fff;
+	color: #000;
 }
 /*=========================*/
 /* Pricing */
