@@ -746,7 +746,7 @@ body {
 }
 .funfacts .counter {
 	font-size:70px;
-	color:#000;
+	color:#fff;
 	font-weight:700;
 }
 .funfacts h4 {
@@ -755,7 +755,7 @@ body {
 	margin:22px 0 0;
 	position:relative;
 	letter-spacing:1px;
-	color: #000;
+	color: #fff;
 }
 /*=========================*/
 /* Pricing */
